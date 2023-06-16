@@ -1,0 +1,38 @@
+.root {
+	-fx-background-color: #B9770E;
+}
+
+#heading {
+	-fx-background-color: #784212;	
+}
+
+#home {
+	-fx-background-color: #784212;	
+}
+
+#numberButton {
+	-fx-background-color: #909497;
+	-fx-border-color: "black" ;
+}
+
+#blackButton {
+	-fx-background-color: "Black";
+	-fx-border-color: "White" ;
+}
+
+#selectAgain {
+	-fx-background-color: "Brown";
+	-fx-border-color: "black" ;
+}
+
+#textInPuzzle {
+	-fx-background-color: "Grey";
+}
+
+#setText {
+	-fx-background-color: "White";
+}
+
+#goBack {
+	-fx-background-color: "White";
+}

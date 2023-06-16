@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="450.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NumMain.dimensionController">
+   <children>
+      <AnchorPane fx:id="heading" layoutX="0.0" layoutY="0.0" prefHeight="48.0" prefWidth="400.0">
+         <children>
+            <Button fx:id="home" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#mainStage">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/IMG_0078.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <GridPane fx:id="gpane" layoutX="50.0" layoutY="109.0" prefHeight="300.0" prefWidth="300.0">
+      </GridPane>
+      <Label fx:id="moves"  layoutX="50.0" layoutY="68.0" prefHeight="22.0" prefWidth="65.0" text="Moves: 0" />
+      <Label fx:id="points" layoutX="285.0" layoutY="68.0" prefHeight="22.0" prefWidth="65.0" text="Points: 0" />
+   </children>
+</AnchorPane>
